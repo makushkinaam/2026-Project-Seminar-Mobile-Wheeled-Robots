@@ -77,7 +77,7 @@ def generate_launch_description():
     sine2 = Node(
         package="practice1",
         executable="practice1_node",
-        name=["practice1_nod_", turtle_name2],
+        name=["practice1_node_", turtle_name2],
         parameters=[{"topic": ["/", turtle_name2], "num": num2}],
         output="screen",
     )

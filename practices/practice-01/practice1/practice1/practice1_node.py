@@ -44,8 +44,6 @@ class Robot(Node):
 
         self.pen_init = 0
 
-        self.end = 0
-
         self.numbers = [
             [  # 0
                 'start',
@@ -281,9 +279,13 @@ class Robot(Node):
 
     def stop(self):
         if self.init:
-            self.end = 1
             self.get_logger().info("finish " + self.topic)
             self.init = 0
+        if True:
+            msg = Twist()
+            msg.angular.z = 0.0
+            msg.linear.x = 0.0
+            self.publisher.publish(msg)
             
 
     def timer_callback(self):
