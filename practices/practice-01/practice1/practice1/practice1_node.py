@@ -212,6 +212,7 @@ class Robot(Node):
         self.get_logger().info(f"pen set: {resp.result()}")
         self.pen_init = 1
 
+
     def setPen(self, off):
         if self.init:
             self.req.r = 255

@@ -5,14 +5,17 @@
 ## Сборка 
 
 1. Зайти в папку проекта 
+
 2. Запустить контейнер
 ```bash
 HOST_XAUTHORITY="$XAUTHORITY" docker compose --env-file .env --env-file .env.local -f docker-compose.yaml -f docker-compose.gpu.yaml [-f docker-compose.nvidia.yaml] up -d
 ```
+
 3. Запустить в нем zsh
 ```bash
 HOST_XAUTHORITY="$XAUTHORITY" docker compose --env-file .env --env-file .env.local -f docker-compose.yaml -f docker-compose.gpu.yaml [-f docker-compose.nvidia.yaml] exec -it ros2-base zsh
 ```
+
 4. Собрать рабочее пространство 
 ```bash
 cd ~/practices_ws
@@ -27,7 +30,7 @@ source install/setup.zsh
 ros2 launch practice1 practice1.launch.py turtle_name1:=turtle2 turtle_name2:=turtle3 num1:=0 num2:=8
 ```
 
-Черепаха нарисует цифры 08
+Черепахи нарисуют цифры 08
 
 ## Граф узлов
 
@@ -41,7 +44,3 @@ rqt_graph
 Видео выполнения можно посмотреть по ссылке:
 
 [https://disk.360.yandex.ru/d/YLtclqlWGW7FyA](https://disk.360.yandex.ru/d/YLtclqlWGW7FyA)
-
-
-
-
