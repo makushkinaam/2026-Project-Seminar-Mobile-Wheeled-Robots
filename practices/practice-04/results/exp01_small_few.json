@@ -1,0 +1,10 @@
+{
+    "run_name": "exp01_small_few",
+    "duration": 120.0,
+    "position_threshold": 0.1,
+    "angle_threshold": 0.1,
+    "confirmation_duration": 10.0,
+    "convergence_time": 8.48,
+    "converged": true,
+    "sample_count": 1201
+}

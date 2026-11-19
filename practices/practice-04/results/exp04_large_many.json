@@ -1,0 +1,10 @@
+{
+    "run_name": "exp04_large_many",
+    "duration": 120.0,
+    "position_threshold": 0.1,
+    "angle_threshold": 0.1,
+    "confirmation_duration": 10.0,
+    "convergence_time": 46.912,
+    "converged": true,
+    "sample_count": 1202
+}

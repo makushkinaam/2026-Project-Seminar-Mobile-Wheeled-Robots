@@ -1,0 +1,10 @@
+{
+    "run_name": "exp02_small_many",
+    "duration": 120.0,
+    "position_threshold": 0.1,
+    "angle_threshold": 0.1,
+    "confirmation_duration": 10.0,
+    "convergence_time": 6.496000000000001,
+    "converged": true,
+    "sample_count": 1202
+}
