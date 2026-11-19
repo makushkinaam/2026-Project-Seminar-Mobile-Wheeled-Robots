@@ -1,0 +1,10 @@
+{
+    "run_name": "exp06_global_many",
+    "duration": 120.0,
+    "position_threshold": 0.1,
+    "angle_threshold": 0.1,
+    "confirmation_duration": 10.0,
+    "convergence_time": null,
+    "converged": false,
+    "sample_count": 1202
+}
